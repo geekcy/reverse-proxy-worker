@@ -1,0 +1,18 @@
+name = "reverse-proxy-worker"
+main = "src/index.js"
+compatibility_date = "2023-12-01"
+
+# 配置环境变量
+[vars]
+# 设置目标URL，例如：
+# TARGET_URL = "https://example.com"
+
+# 可选：配置路由
+# [[routes]]
+# pattern = "example.com/*"
+# zone_id = "your-zone-id"
+
+# 可选：配置KV命名空间（如果需要缓存）
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "your-kv-namespace-id"
